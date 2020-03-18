@@ -1086,6 +1086,7 @@
                 this.clickApply();
             }
             if (this.autoUpdateInput && this.startDate && !this.endDate) {
+                console.log('Send it!');
                 this.clickApply();
             }
             // This is to cancel the blur event handler if the mouse was in one of the inputs

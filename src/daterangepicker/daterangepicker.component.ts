@@ -950,6 +950,7 @@ export class DaterangepickerComponent implements OnInit {
         }
 
         if (this.autoUpdateInput && this.startDate && !this.endDate) {
+          console.log('Send it!');
           this.clickApply();
         }
 
